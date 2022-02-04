@@ -1,0 +1,44 @@
+.heading{
+    width: 100%;
+   text-align: left;
+}
+
+.heading h3{
+    display: inline;
+
+}
+
+.heading button{
+    float: right;
+    border: 1.5px solid white;
+
+    
+} 
+#start{
+    background-color: skyblue;
+    height: 45px;;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.modal-dialog{
+    width: 90%;
+    
+    }
+    
+    .h{
+        display: inline-block;
+        width: 60%;
+        font-size: 20px;
+        background-color: springgreen;
+        word-spacing: 4px;
+        font-weight: bolder;
+        border-radius: 10px;
+        line-height: 50px;
+     
+
+    }
+    
+    
+    
+    

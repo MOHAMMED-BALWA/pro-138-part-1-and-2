@@ -1,0 +1,75 @@
+<!--created by prashant shukla-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ping Pong</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+     
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>   
+
+    </head>
+    <body background="background1.jpg">
+        <center>
+
+            <div class="btn btn-primary heading"> 
+
+                <h3>AI PING PONG GAME</h3>
+                <button class="btn btn-danger "  data-toggle = "modal" data-target="#myModal">INSTRUCTIONS</button>
+
+              </div>
+              <br><br>
+              <br>
+
+              <button id="start" onclick="start()">PLAY GAME</button>
+<br><br>
+<h3 id="status" class= "btn btn-warning"></h3>
+       <br><br>
+
+       <div id="canvas"></div>
+
+
+<div id="myModal" class="modal fade">
+
+<div class="modal-dialog">
+
+    <div class="modal-content">
+
+   <div class="modal-header">
+      <button class="close" data-dismiss = "modal" >&times;</button>
+      <h4>INSTRUCTIONS</h4>
+    </div>
+
+
+    <div class="modal-body">
+        
+     </div>
+     <h3 class="h">1. FIRST KEEP YOUR LAPTOP SCREEN STRAIGHT</h3>
+     <h3 class="h">2. MOVE YOURSELF APPROXIMATELY 3-4 FEET AWAY FROM YOUR LAPTOP</h3>
+     <h3 class="h">3. MOVE YOUR RIGHT WRIST IN ASCENDING AND DECENDING MANNER , A RED DOT SHOULD BE APPEAR ON YOUR RIGHT WRIST</h3>
+     <h3 class="h">4. NOW PRESS THE PLAY BUTTON , AND AGAIN MOVE YOURSELF 3-4 FEET AWAY FROM LAPTOP</h3>
+     <h3 class="h">5. THE RED PADDEL IS YOUR PADDEL , THAT WILL MOVW AS PER THE MOVEMENT OF YOUR RIGHT WRIST</h3>
+    <br>
+    
+    </div>
+    <br>
+    <br>
+
+
+</div>
+
+</div>
+
+
+
+        </center>
+      
+
+        <script src="main.js"></script>
+    </body>
+</html>
